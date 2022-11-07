@@ -24,4 +24,4 @@ jobs:
     steps:
       - name: Get harware name
         run: |
-          uname -a
+           echo $(uname -a)
